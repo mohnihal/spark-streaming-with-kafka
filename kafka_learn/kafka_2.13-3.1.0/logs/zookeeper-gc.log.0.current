@@ -1,0 +1,35 @@
+OpenJDK 64-Bit Server VM (25.312-b07) for linux-amd64 JRE (1.8.0_312-8u312-b07-0ubuntu1~20.04-b07), built on Nov  3 2021 13:54:59 by "buildd" with gcc 9.3.0
+Memory: 4k page, physical 991160k(359876k free), swap 1048572k(630864k free)
+CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=536870912 -XX:MaxInlineLevel=15 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
+2022-05-07T15:12:24.298+0000: 1.560: [GC pause (G1 Evacuation Pause) (young), 0.0118859 secs]
+   [Parallel Time: 10.3 ms, GC Workers: 1]
+      [GC Worker Start (ms):  1560.1]
+      [Ext Root Scanning (ms):  2.5]
+      [Update RS (ms):  0.0]
+         [Processed Buffers:  0]
+      [Scan RS (ms):  0.0]
+      [Code Root Scanning (ms):  0.3]
+      [Object Copy (ms):  6.6]
+      [Termination (ms):  0.0]
+         [Termination Attempts:  1]
+      [GC Worker Other (ms):  0.7]
+      [GC Worker Total (ms):  10.2]
+      [GC Worker End (ms):  1570.4]
+   [Code Root Fixup: 0.0 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.0 ms]
+   [Other: 1.6 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 1.3 ms]
+      [Ref Enq: 0.0 ms]
+      [Redirty Cards: 0.0 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.0 ms]
+   [Eden: 25600.0K(25600.0K)->0.0B(21504.0K) Survivors: 0.0B->4096.0K Heap: 25600.0K(512.0M)->5277.5K(512.0M)]
+ [Times: user=0.01 sys=0.01, real=0.01 secs] 
+Heap
+ garbage-first heap   total 524288K, used 21661K [0x00000000e0000000, 0x00000000e0101000, 0x0000000100000000)
+  region size 1024K, 21 young (21504K), 4 survivors (4096K)
+ Metaspace       used 12377K, capacity 12754K, committed 12800K, reserved 1060864K
+  class space    used 1408K, capacity 1533K, committed 1536K, reserved 1048576K
